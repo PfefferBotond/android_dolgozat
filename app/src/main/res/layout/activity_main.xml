@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+tools:context="mainActivity"
+    android:background="@color/white"
+    android:id="@+id/layout"
+    >
+
+
+    <Button
+        android:id="@+id/redText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="302dp"
+        android:text="NAGYBETŰS SZÖVEG"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/blueText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greenText"
+        android:layout_marginTop="0dp"
+        android:text="Véletlen szín generálás"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/greenText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redText"
+        android:layout_marginTop="0dp"
+        android:text="kisbetűs szöveg"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kérlek add meg a változtatni kívánt szöveget"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
